@@ -4,7 +4,7 @@ import {
   handleAddTodo,
   handleDeleteTodo,
   handleToggleTodo
-} from '..actions/todos'
+} from '../actions/todos'
 import List from './List'
 
 class Todos extends Component{

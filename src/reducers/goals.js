@@ -3,7 +3,7 @@ import {
   REMOVE_GOAL,
 } from '../actions/goals'
 
-import RECEIVE_DATA from '../actions/shared'
+import { RECEIVE_DATA } from '../actions/shared'
 
 
 export default function goals(state =[], action){

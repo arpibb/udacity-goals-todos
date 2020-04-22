@@ -7,7 +7,7 @@ import {
 } from '..actions/todos'
 import List from './List'
 
-class Todos extends React{
+class Todos extends Component{
   addItem = (e)=>{
     e.preventDefault()
     this.props.dispatch(handleAddTodo(
